@@ -1,0 +1,30 @@
+{
+  "name": "with-emotion",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --fix components pages"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.0",
+    "@emotion/styled": "^10.0.0",
+    "babel-plugin-emotion": "^10.0.0",
+    "next": "latest",
+    "prop-types": "^15.7.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-icons": "^3.7.0"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.14",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  }
+}
